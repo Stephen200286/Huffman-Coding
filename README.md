@@ -45,7 +45,7 @@ The seventeen included test cases are as follows.
 6. g4g: Taken from GeeksForGeeks.com [1]. Verifies that the tree and symbols are generated correctly. A reference image 'g4g.png' is included to help verify.
 7. qwerty: A panagram.
 8. test\*: Test for edge cases when generating the Huffman tree with a small number of distinct bytes. 1-5 have uniform frequencies while 6-9 do not.
-9. wikipedia: Same as five but from Wikipedia.com [2].
+9. wikipedia: Same as six but from Wikipedia.com [2].
 
 ## Have Fun!
 
