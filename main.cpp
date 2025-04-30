@@ -156,7 +156,7 @@ vector<vector<uint8_t>> createDictionary(shared_ptr<Node> root) {
 /* Perform preorder traversal of the Huffman tree */
 void createDictionary(shared_ptr<Node> root, vector<uint8_t> code, vector<vector<uint8_t>> &dictionary) {
 	if (!root->left && !root->right) { // Add code to dictionary
-		int val = root->val-36;
+		int val = root->val;
 		dictionary[root->val] = code;
 	}
 	if (root->left) { // Append 0 to code
