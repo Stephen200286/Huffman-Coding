@@ -37,7 +37,7 @@ The xxd utility can also be used to verify the integrity of small files after
 compression and decompression.
 
 The seventeen included test cases are as follows:
-1. allBytes: Every possible by with a frequency relative to itself. One zero, two ones, three twos, etc.
+1. allBytes: Every possible byte with a frequency relative to itself. One zero, two ones, three twos, etc.
 2. allBytesUniform: Every possible byte once.
 3. ascii: Similar to all bytes but only inlcudes lower case alphabetic characters.
 4. bestCase: 10 Mib of zeros.
